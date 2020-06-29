@@ -1,11 +1,82 @@
 <!DOCTYPE html>
-<html><Head>  
-    <meta>
-    <title>my first website</title>
-        
-    </Head>
-    <body>
-        <h1>my first ever website</h1>
-        <p>I learned how to push file</p>
-    </body>
-    </html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style> 
+        body {
+            background-color: slateblue;
+        }
+        div {
+            background-color: whitesmoke;
+            margin: auto;
+            margin-top: 100px;
+            width: 20%;
+            height: 380px;
+            border: 1px lightblue;
+            border-radius: 15px;
+            box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
+            padding: 50px;
+        }
+        input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 2px solid red;
+        }
+        h1 {
+            text-align: center;
+            color: slateblue;
+        }
+        #right {
+            text-align: right;
+        }
+        .button1 {
+            float:left;
+            width: 60px;
+            height: 25px;
+            padding: 2px;
+            text-align: center;
+            border-radius: 4px;
+            font-weight: bold;
+            color: whitesmoke;
+            background-color: purple;
+        }
+        .button2 {
+            float:right;
+            width: 60px;
+            height: 25px;
+            padding: 2px;
+            text-align: center;
+            border-radius: 4px;
+            font-weight: bold;
+            color: whitesmoke;
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+<div> 
+    <h1>Login</h1>
+    <br>
+    <br>
+    <form>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Please type your Username">
+        <label for="password">Password</label>
+        <input type="text" id="password name="password" placeholder="Please type your password">
+      </form>
+    <br>
+    <button class="button1">Submit</button>
+    <br>
+    <br>
+    <br>
+    <p id="right">Don't have an account yet?</p>
+    <button class="button2">Signup</button>
+</div>
+    
+</body>
+</html>
